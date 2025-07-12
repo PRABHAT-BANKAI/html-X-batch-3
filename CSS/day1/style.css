@@ -1,0 +1,46 @@
+
+/*  tag name   */
+h1{
+  color:red;
+  background-color: yellow;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  text-align: center;
+  line-height: 75px;
+}
+
+/* .class   (comment  ctrl +/) */
+.text{
+  color: blue;
+  background-color: aqua;
+  font-weight:  bolder;
+}
+/* #id  */
+#size{
+
+  font-size: 45px;
+  color: blueviolet;
+  color: brown;
+  background-color: green;
+
+/* for italic text */
+  font-style: italic;
+}
+
+.letter{
+  /* letter-spacing: 25px; */
+  word-spacing: 25px;
+  /* text-decoration: underline;
+  text-decoration: line-through; */
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-indent: 25px;
+}
+
+ul{
+  list-style: square;
+}
+
+body{
+  background-color: blanchedalmond;
+}
