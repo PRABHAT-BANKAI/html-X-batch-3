@@ -1,0 +1,26 @@
+h1{
+  background-color: yellow;
+}
+
+#para{
+  background-color: green;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 160px;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+}
+p{
+  background-color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* letter-spacing: 45px; */
+  word-spacing: 34px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}
+sup{
+  color: white;
+  background-color: blue;
+}
