@@ -1,0 +1,17 @@
+mark{
+  display: block;
+  /* visibility: hidden; */
+  display: none;
+}
+
+
+h1{
+  display: inline;
+  background-color: blanchedalmond;
+}
+
+span{
+  background-color: green;
+  padding: 55px;
+  display: inline-block;
+}

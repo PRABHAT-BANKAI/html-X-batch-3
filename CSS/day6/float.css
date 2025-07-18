@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.box1 {
+
+  float: left;
+}
+.box2 {
+  background-color: black;
+  float: left;
+}
+
+
+.clear{
+  clear: both;
+}
