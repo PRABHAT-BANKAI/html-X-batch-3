@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border: 1px solid black;
+  z-index: 6;
+
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  transition: 5s;
+  translate: -80% -80%;
+}
+
+.box:hover {
+  background-color: yellow;
+  transform: rotate(2100deg);
+}
+.box2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(47, 23, 181);
+  border: 1px solid black;
+  position: absolute;
+  right: 35px;
+  bottom: 35px;
+  transform: rotate(77deg);
+  z-index: 5;
+}
+.box3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(86, 212, 24);
+  border: 1px solid black;
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+
+  /* transform: rotate(67deg); */
+  transform: skew(0deg);
+}
+
+.container {
+  height: 600px;
+  width: 600px;
+  background-color: bisque;
+  position: relative;
+  /* position relaive change behaviour of position absolute */
+}
