@@ -1,0 +1,45 @@
+button {
+  height: 70px;
+  width: 140px;
+  background-color: yellow;
+  border: none;
+  border-radius: 25px;
+  font-size: 23px;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  /* transition-delay: 5s; */
+  transition-property: height, width;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  height: 400px;
+  width: 400px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: yellow;
+  transition: 5s;
+}
+
+.box:hover {
+  transform: rotate(3000deg);
+  margin-left: 500px;
+  margin-top: 500px;
+  background-color: orange;
+}
+
+input {
+  height: 50px;
+  width: 500px;
+}
+
+input:focus {
+  outline-color: blue;
+  color: red;
+  background-color: yellow;
+}
