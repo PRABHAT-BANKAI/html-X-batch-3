@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  background-color: rgb(184, 254, 254);
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  margin-top: 10px;
+  left: 30px;
+}
+
+nav {
+  position: absolute;
+  right: 30px;
+  margin-top: 20px;
+}
+
+a {
+  margin-left: 20px;
+}
+
+button {
+  border: none;
+  color: white;
+  border-radius: 100px;
+  padding: 0.3rem 2rem;
+  background-color: #8364e2;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+button:hover {
+  background-color: red;
+  box-shadow: #8364e2 2px 2px 20px 0px;
+}
