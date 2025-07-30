@@ -40,10 +40,18 @@ button {
     rgba(252, 176, 69, 1) 100%
   );
   border: none;
+
+  padding: 5px 10px;
 }
 
-.container{
+.container {
   display: flex;
   gap: 15px;
   align-items: center;
+}
+
+aside {
+  width: 250px;
+  border: 1px solid black;
+  height: calc(100vh - 70px);
 }
